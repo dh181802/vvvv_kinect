@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta38.1.dtd" >
-   <PATCH nodename="D:\OneDrive - Fachhochschule St. Pölten\Semester 2\Rapid Visual Programming and Prototyping\Assignment_Husinsky\Stats.v4p" systemname="Stats" filename="C:\Users\admin\Desktop\MDH\simple_kinect_start_v2.1\Stats.v4p">
-   <BOUNDS type="Window" left="11088" top="1728" width="12216" height="8520">
+   <PATCH nodename="D:\OneDrive - Fachhochschule St. Pölten\Semester 2\Rapid Visual Programming and Prototyping\Assignment_Husinsky - Copy\Stats.v4p" systemname="Stats" filename="C:\Users\admin\Desktop\MDH\simple_kinect_start_v2.1\Stats.v4p">
+   <BOUNDS type="Window" left="6696" top="2724" width="12216" height="8520">
    </BOUNDS>
    <PACK Name="dx11" Version="1.3.1">
    </PACK>
@@ -177,9 +177,23 @@
    </BOUNDS>
    <PIN pinname="Input Value" visible="1">
    </PIN>
-   <PIN pinname="Receive String" slicecount="1" values="SendStats">
+   <PIN pinname="Receive String" slicecount="1" values="SendRepetitions">
    </PIN>
    </NODE>
    <LINK srcnodeid="31" srcpinname="Input Value" dstnodeid="27" dstpinname="Input">
    </LINK>
+   <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="32">
+   <BOUNDS type="Node" left="3936" top="552" width="1008" height="240">
+   </BOUNDS>
+   <BOUNDS type="Box" left="3936" top="552" width="1776" height="696">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|recieves the stats from the perform subpatch|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
    </PATCH>

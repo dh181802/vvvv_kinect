@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta38.1.dtd" >
-   <PATCH nodename="D:\OneDrive - Fachhochschule St. Pölten\Semester 2\Rapid Visual Programming and Prototyping\Assignment_Husinsky\START_KinectScene.v4p" systemname="KinectScene" filename="C:\Users\Kinect\Desktop\KinectScene.v4p" scrollx="0" scrolly="1812">
+   <PATCH nodename="D:\OneDrive - Fachhochschule St. Pölten\Semester 2\Rapid Visual Programming and Prototyping\Assignment_Husinsky - Copy\START_KinectScene.v4p" systemname="KinectScene" filename="C:\Users\Kinect\Desktop\KinectScene.v4p" scrollx="0" scrolly="4176">
    <BOUNDS type="Window" left="4476" top="192" width="15396" height="13224">
    </BOUNDS>
    <NODE systemname="ASPECTRATIO (TRANSFORM)" nodename="AspectRatio (Transform)" componentmode="Hidden" id="4">
@@ -73,7 +73,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="1005" top="13740" width="2400" height="1800">
    </BOUNDS>
-   <BOUNDS type="Window" left="7848" top="1800" width="12624" height="9456">
+   <BOUNDS type="Window" left="10416" top="1200" width="12624" height="9456">
    </BOUNDS>
    <PIN pinname="View" visible="1" slicecount="1" values="||">
    </PIN>
@@ -345,7 +345,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="5205" top="1155" width="3000" height="3000">
    </BOUNDS>
-   <BOUNDS type="Window" left="1200" top="0" width="6696" height="5496">
+   <BOUNDS type="Window" left="192" top="168" width="6696" height="5496">
    </BOUNDS>
    <PIN pinname="StateXML" slicecount="1" values="|&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&cr;&lf;&lt;ArrayOfState xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&cr;&lf;  &lt;State&gt;&cr;&lf;    &lt;ID&gt;Init&lt;/ID&gt;&cr;&lf;    &lt;Name&gt;Init&lt;/Name&gt;&cr;&lf;    &lt;Active&gt;false&lt;/Active&gt;&cr;&lf;    &lt;Frames&gt;0&lt;/Frames&gt;&cr;&lf;    &lt;Bounds&gt;&cr;&lf;      &lt;Location&gt;&cr;&lf;        &lt;X&gt;1&lt;/X&gt;&cr;&lf;        &lt;Y&gt;-7&lt;/Y&gt;&cr;&lf;      &lt;/Location&gt;&cr;&lf;      &lt;Size&gt;&cr;&lf;        &lt;Width&gt;70&lt;/Width&gt;&cr;&lf;        &lt;Height&gt;70&lt;/Height&gt;&cr;&lf;      &lt;/Size&gt;&cr;&lf;      &lt;X&gt;1&lt;/X&gt;&cr;&lf;      &lt;Y&gt;-7&lt;/Y&gt;&cr;&lf;      &lt;Width&gt;70&lt;/Width&gt;&cr;&lf;      &lt;Height&gt;70&lt;/Height&gt;&cr;&lf;    &lt;/Bounds&gt;&cr;&lf;  &lt;/State&gt;&cr;&lf;  &lt;State&gt;&cr;&lf;    &lt;ID&gt;g6Qmt8va&lt;/ID&gt;&cr;&lf;    &lt;Name&gt;StartScreen&lt;/Name&gt;&cr;&lf;    &lt;Active&gt;false&lt;/Active&gt;&cr;&lf;    &lt;Frames&gt;0&lt;/Frames&gt;&cr;&lf;    &lt;Bounds&gt;&cr;&lf;      &lt;Location&gt;&cr;&lf;        &lt;X&gt;130&lt;/X&gt;&cr;&lf;        &lt;Y&gt;70&lt;/Y&gt;&cr;&lf;      &lt;/Location&gt;&cr;&lf;      &lt;Size&gt;&cr;&lf;        &lt;Width&gt;70&lt;/Width&gt;&cr;&lf;        &lt;Height&gt;70&lt;/Height&gt;&cr;&lf;      &lt;/Size&gt;&cr;&lf;      &lt;X&gt;130&lt;/X&gt;&cr;&lf;      &lt;Y&gt;70&lt;/Y&gt;&cr;&lf;      &lt;Width&gt;70&lt;/Width&gt;&cr;&lf;      &lt;Height&gt;70&lt;/Height&gt;&cr;&lf;    &lt;/Bounds&gt;&cr;&lf;  &lt;/State&gt;&cr;&lf;  &lt;State&gt;&cr;&lf;    &lt;ID&gt;OxjkqHqd&lt;/ID&gt;&cr;&lf;    &lt;Name&gt;SelectExercise&lt;/Name&gt;&cr;&lf;    &lt;Active&gt;false&lt;/Active&gt;&cr;&lf;    &lt;Frames&gt;0&lt;/Frames&gt;&cr;&lf;    &lt;Bounds&gt;&cr;&lf;      &lt;Location&gt;&cr;&lf;        &lt;X&gt;342&lt;/X&gt;&cr;&lf;        &lt;Y&gt;72&lt;/Y&gt;&cr;&lf;      &lt;/Location&gt;&cr;&lf;      &lt;Size&gt;&cr;&lf;        &lt;Width&gt;70&lt;/Width&gt;&cr;&lf;        &lt;Height&gt;70&lt;/Height&gt;&cr;&lf;      &lt;/Size&gt;&cr;&lf;      &lt;X&gt;342&lt;/X&gt;&cr;&lf;      &lt;Y&gt;72&lt;/Y&gt;&cr;&lf;      &lt;Width&gt;70&lt;/Width&gt;&cr;&lf;      &lt;Height&gt;70&lt;/Height&gt;&cr;&lf;    &lt;/Bounds&gt;&cr;&lf;  &lt;/State&gt;&cr;&lf;  &lt;State&gt;&cr;&lf;    &lt;ID&gt;TSUnJrTS&lt;/ID&gt;&cr;&lf;    &lt;Name&gt;Perform&lt;/Name&gt;&cr;&lf;    &lt;Active&gt;false&lt;/Active&gt;&cr;&lf;    &lt;Frames&gt;0&lt;/Frames&gt;&cr;&lf;    &lt;Bounds&gt;&cr;&lf;      &lt;Location&gt;&cr;&lf;        &lt;X&gt;342&lt;/X&gt;&cr;&lf;        &lt;Y&gt;224&lt;/Y&gt;&cr;&lf;      &lt;/Location&gt;&cr;&lf;      &lt;Size&gt;&cr;&lf;        &lt;Width&gt;70&lt;/Width&gt;&cr;&lf;        &lt;Height&gt;70&lt;/Height&gt;&cr;&lf;      &lt;/Size&gt;&cr;&lf;      &lt;X&gt;342&lt;/X&gt;&cr;&lf;      &lt;Y&gt;224&lt;/Y&gt;&cr;&lf;      &lt;Width&gt;70&lt;/Width&gt;&cr;&lf;      &lt;Height&gt;70&lt;/Height&gt;&cr;&lf;    &lt;/Bounds&gt;&cr;&lf;  &lt;/State&gt;&cr;&lf;  &lt;State&gt;&cr;&lf;    &lt;ID&gt;YeCxtX8S&lt;/ID&gt;&cr;&lf;    &lt;Name&gt;Stats&lt;/Name&gt;&cr;&lf;    &lt;Active&gt;false&lt;/Active&gt;&cr;&lf;    &lt;Frames&gt;500&lt;/Frames&gt;&cr;&lf;    &lt;Bounds&gt;&cr;&lf;      &lt;Location&gt;&cr;&lf;        &lt;X&gt;124&lt;/X&gt;&cr;&lf;        &lt;Y&gt;223&lt;/Y&gt;&cr;&lf;      &lt;/Location&gt;&cr;&lf;      &lt;Size&gt;&cr;&lf;        &lt;Width&gt;70&lt;/Width&gt;&cr;&lf;        &lt;Height&gt;70&lt;/Height&gt;&cr;&lf;      &lt;/Size&gt;&cr;&lf;      &lt;X&gt;124&lt;/X&gt;&cr;&lf;      &lt;Y&gt;223&lt;/Y&gt;&cr;&lf;      &lt;Width&gt;70&lt;/Width&gt;&cr;&lf;      &lt;Height&gt;70&lt;/Height&gt;&cr;&lf;    &lt;/Bounds&gt;&cr;&lf;  &lt;/State&gt;&cr;&lf;&lt;/ArrayOfState&gt;|">
    </PIN>
@@ -366,7 +366,7 @@
    <PIN pinname="Workout" slicecount="1" values="0">
    </PIN>
    </NODE>
-   <NODE systemname="StartScreen" filename="StartScreen.v4p" nodename="StartScreen.v4p" componentmode="Hidden" id="175">
+   <NODE systemname="StartScreen" filename="StartScreen.v4p" nodename="StartScreen.v4p" componentmode="InAWindow" id="175">
    <BOUNDS type="Node" left="5385" top="4275" width="0" height="0">
    </BOUNDS>
    <BOUNDS type="Box" left="5385" top="4275" width="3220" height="4630">
@@ -451,7 +451,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8115" top="7830" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="444" top="2340" width="14292" height="12600">
+   <BOUNDS type="Window" left="2616" top="996" width="14292" height="12600">
    </BOUNDS>
    <PIN pinname="Layer Out" visible="1">
    </PIN>
@@ -505,7 +505,7 @@
    <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="216">
    <BOUNDS type="Node" left="10365" top="7965" width="6750" height="480">
    </BOUNDS>
-   <BOUNDS type="Box" left="10365" top="7965" width="3585" height="1050">
+   <BOUNDS type="Box" left="10365" top="7965" width="3612" height="1320">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="|TODO&cr;&lf;Create a visualization for the &quot;Stats&quot; state, where the results of the exercise is being displayed|">
    </PIN>
@@ -539,7 +539,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="9450" top="8370" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="11088" top="1728" width="12216" height="8520">
+   <BOUNDS type="Window" left="6696" top="2724" width="12216" height="8520">
    </BOUNDS>
    <PIN pinname="Layer Out" visible="1">
    </PIN>
@@ -595,7 +595,7 @@
    <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="223">
    <BOUNDS type="Node" left="7680" top="4920" width="6060" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="7680" top="4920" width="5280" height="735">
+   <BOUNDS type="Box" left="7680" top="4920" width="5280" height="732">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="|Have a look at the exercises and give the buttons proper names. The selected button index maybe has to be adjusted, so it will fit the index of the recording in the perform state.|">
    </PIN>
@@ -611,7 +611,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="9240" top="6705" width="5280" height="825">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|TODO: In here, perform the selected exercise has to be checked. Count repetitions and output them in the stats-state. DONE|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|TODO: In here, perform the selected exercise has to be checked. Count repetitions and output them in the stats-state.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>

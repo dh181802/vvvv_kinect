@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta38.1.dtd" >
-   <PATCH nodename="D:\OneDrive - Fachhochschule St. Pölten\Semester 2\Rapid Visual Programming and Prototyping\Assignment_Husinsky\Perform.v4p" systemname="Perform" filename="C:\Users\admin\Desktop\MDH\simple_kinect_start_v2.1\Perform.v4p" scrollx="0" scrolly="-360">
-   <BOUNDS type="Window" left="2820" top="600" width="14292" height="12600">
+   <PATCH nodename="D:\OneDrive - Fachhochschule St. Pölten\Semester 2\Rapid Visual Programming and Prototyping\dh181802_Assignment_Husinsky\Perform.v4p" systemname="Perform" filename="C:\Users\admin\Desktop\MDH\simple_kinect_start_v2.1\Perform.v4p" scrollx="0" scrolly="1800">
+   <BOUNDS type="Window" left="2616" top="996" width="14292" height="12600">
    </BOUNDS>
    <NODE systemname="WithinProjection (DX11.Layer)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="WithinProjection (DX11.Layer)" componentmode="Hidden" id="27">
    <BOUNDS type="Node" left="7845" top="9660" width="100" height="100">
@@ -545,7 +545,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="7530" top="4560" width="5340" height="1365">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|TODO&cr;&lf;Select at least one more exercise and integrate them in the patch, similar to the example. You have to take care that the results of the chosen exercise will be output (e.g. using a Switch)|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|TODO&cr;&lf;Select at least one more exercise and integrate them in the patch, similar to the example. You have to take care that the results of the chosen exercise will be output (e.g. using a Switch) - DONE|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -563,7 +563,7 @@
    </PIN>
    <PIN pinname="Reset" visible="1" slicecount="1" values="0">
    </PIN>
-   <BOUNDS type="Window" left="7548" top="348" width="15024" height="11196">
+   <BOUNDS type="Window" left="1020" top="1008" width="15024" height="11196">
    </BOUNDS>
    <PIN pinname="Result" visible="1">
    </PIN>
@@ -678,6 +678,30 @@
    <BOUNDS type="Box" left="2784" top="6756" width="2016" height="528">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="|switches switch according to the chosen exercise|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <NODE systemname="S (Value)" nodename="S (Value)" componentmode="Hidden" id="130">
+   <BOUNDS type="Node" left="5376" top="8760" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   <PIN pinname="Send String" slicecount="1" values="SendStats">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="127" srcpinname="Output" dstnodeid="130" dstpinname="Input Value">
+   </LINK>
+   <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="131">
+   <BOUNDS type="Node" left="4704" top="9060" width="2712" height="240">
+   </BOUNDS>
+   <BOUNDS type="Box" left="4704" top="9060" width="2712" height="240">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|sends the counter to the stats subpatch|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
